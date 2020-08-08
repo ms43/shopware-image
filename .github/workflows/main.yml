@@ -10,10 +10,10 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Login into Docker Registery
-      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "shyim" --password-stdin
+      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "ms43" --password-stdin
 
     - name: Login into Github Docker Registery
-      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u shyim --password-stdin
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ms43 --password-stdin
 
     - uses: denolib/setup-deno@master
       with:
