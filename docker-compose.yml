@@ -10,7 +10,7 @@ services:
       MYSQL_USER: shopware
       MYSQL_PASSWORD: shopware
   shopware:
-    image: shyim/shopware:6.2.0
+    image: ms43/shopware:6.3.0
     build:
       context: .
     environment:
