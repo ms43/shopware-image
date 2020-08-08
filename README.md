@@ -1,3 +1,5 @@
+![CI](https://github.com/ms43/shopware-image/workflows/CI/badge.svg)
+
 # What is Shopware?
 
 Shopware is a trendsetting ecommerce platform to power your online business. Our ecommerce solution offers the perfect combination of beauty & brains you need to build and customize a fully responsive online store.
